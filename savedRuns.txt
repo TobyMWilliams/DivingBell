@@ -1,0 +1,196 @@
+C:\Users\Toby Williams\Documents\year3\HIS\CWsubmit\cw2Sub>main.exe
+Enter a value for Depth in metres (10 <= X <= 701):
+10
+Enter values for gas fractions:
+Enter a value (>= 0):
+Enter FO2 value:
+122
+Enter a value (>= 0):
+Enter FCO2 value:
+1
+Enter a value (>= 0):
+Enter FHe value:
+120
+System is safe.
+
+Total Pressure is:  2.00000E+00
+sum of Partial Pressures:  2.00000E+00
+FINAL Partial Pressure of O2:  1.00412E+00
+FINAL Partial Pressure of CO2:  8.23045E-03
+FINAL Partial Pressure of He:  9.87654E-01
+
+
+Enter a value for Depth in metres (10 <= X <= 701):
+200
+Enter values for gas fractions:
+Enter a value (>= 0):
+Enter FO2 value:
+30
+Enter a value (>= 0):
+Enter FCO2 value:
+1
+Enter a value (>= 0):
+Enter FHe value:
+179
+Total Pressure is:  2.10000E+01
+sum of Partial Pressures:  2.10000E+01
+Partial Pressure of O2:  3.00000E+00
+Partial Pressure of CO2:  1.00000E-01
+Partial Pressure of He:  1.79000E+01
+
+
+Reducing CO2...scrubbing CO2 and venting O2 and He.
+Reducing O2...Venting He to reduce O2 concentration.
+
+System is safe.
+
+Total Pressure is:  2.10000E+01
+sum of Partial Pressures:  2.10000E+01
+FINAL Partial Pressure of O2:  1.00000E+00
+FINAL Partial Pressure of CO2:  3.00000E-03
+FINAL Partial Pressure of He:  1.99970E+01
+
+
+Enter a value for Depth in metres (10 <= X <= 701):
+50
+Enter values for gas fractions:
+Enter a value (>= 0):
+Enter FO2 value:
+1000
+Enter a value (>= 0):
+Enter FCO2 value:
+500
+Enter a value (>= 0):
+Enter FHe value:
+4995
+Total Pressure is:  6.00000E+00
+sum of Partial Pressures:  6.00000E+00
+Partial Pressure of O2:  9.23788E-01
+Partial Pressure of CO2:  4.61894E-01
+Partial Pressure of He:  4.61432E+00
+
+
+Reducing CO2...scrubbing CO2 and venting O2 and He.
+
+System is safe.
+
+Total Pressure is:  6.00000E+00
+sum of Partial Pressures:  6.00000E+00
+FINAL Partial Pressure of O2:  1.00000E+00
+FINAL Partial Pressure of CO2:  3.00000E-03
+FINAL Partial Pressure of He:  4.99700E+00
+
+
+Enter a value for Depth in metres (10 <= X <= 701):
+503
+Enter values for gas fractions:
+Enter a value (>= 0):
+Enter FO2 value:
+13
+Enter a value (>= 0):
+Enter FCO2 value:
+10
+Enter a value (>= 0):
+Enter FHe value:
+490
+Total Pressure is:  5.13000E+01
+sum of Partial Pressures:  5.13000E+01
+Partial Pressure of O2:  1.30000E+00
+Partial Pressure of CO2:  1.00000E+00
+Partial Pressure of He:  4.90000E+01
+
+
+Reducing CO2...scrubbing CO2 and venting O2 and He.
+
+System is safe.
+
+Total Pressure is:  5.13000E+01
+sum of Partial Pressures:  5.13000E+01
+FINAL Partial Pressure of O2:  1.00000E+00
+FINAL Partial Pressure of CO2:  3.00000E-03
+FINAL Partial Pressure of He:  5.02970E+01
+
+
+Enter a value for Depth in metres (10 <= X <= 701):
+700
+Enter values for gas fractions:
+Enter a value (>= 0):
+Enter FO2 value:
+8
+Enter a value (>= 0):
+Enter FCO2 value:
+0
+Enter a value (>= 0):
+Enter FHe value:
+702
+System is safe.
+
+Total Pressure is:  7.10000E+01
+sum of Partial Pressures:  7.10000E+01
+FINAL Partial Pressure of O2:  8.00000E-01
+FINAL Partial Pressure of CO2:  0.00000E+00
+FINAL Partial Pressure of He:  7.02000E+01
+
+
+Enter a value for Depth in metres (10 <= X <= 701):
+100
+Enter values for gas fractions:
+Enter a value (>= 0):
+Enter FO2 value:
+3
+Enter a value (>= 0):
+Enter FCO2 value:
+4
+Enter a value (>= 0):
+Enter FHe value:
+4
+Total Pressure is:  1.10000E+01
+sum of Partial Pressures:  1.10000E+01
+Partial Pressure of O2:  3.00000E+00
+Partial Pressure of CO2:  4.00000E+00
+Partial Pressure of He:  4.00000E+00
+
+
+Reducing CO2...scrubbing CO2 and venting O2 and He.
+Reducing O2...Venting He to reduce O2 concentration.
+
+System is safe.
+
+Total Pressure is:  1.10000E+01
+sum of Partial Pressures:  1.10000E+01
+FINAL Partial Pressure of O2:  1.00000E+00
+FINAL Partial Pressure of CO2:  3.00000E-03
+FINAL Partial Pressure of He:  9.99700E+00
+
+
+Enter a value for Depth in metres (10 <= X <= 701):
+25
+Enter values for gas fractions:
+Enter a value (>= 0):
+Enter FO2 value:
+0
+Enter a value (>= 0):
+Enter FCO2 value:
+0
+Enter a value (>= 0):
+Enter FHe value:
+4
+Total Pressure is:  3.50000E+00
+sum of Partial Pressures:  3.50000E+00
+Partial Pressure of O2:  0.00000E+00
+Partial Pressure of CO2:  0.00000E+00
+Partial Pressure of He:  3.50000E+00
+
+
+Increasing O2...Venting O2 to increase the concentration of O2 in cabin.
+
+System is safe.
+
+Total Pressure is:  3.50000E+00
+sum of Partial Pressures:  3.50000E+00
+FINAL Partial Pressure of O2:  1.00000E+00
+FINAL Partial Pressure of CO2:  3.00000E-03
+FINAL Partial Pressure of He:  2.49700E+00
+
+
+Enter a value for Depth in metres (10 <= X <= 701):

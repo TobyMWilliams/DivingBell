@@ -1,0 +1,61 @@
+This is a simplified model of a life support system for a saturation diving rig.
+That is a Deep Submergence Vehicle, where the internal pressure of the rig matches the external pressure of the surrounding water, allowing people to enter and exit the rig from
+hyperbaric chamber, which due to the pressure of the cabin prevents water from filling the cabin.
+
+Convention is to use a mixture of Helium and Oxygen called Heliox.
+The ratios of helium and oxygen in the mixture maintains a safe partial pressure of O2.
+In this project I am regulating the concentrations of Oxygen, and Carbon Dioxide to ensure the resulting mixture is safe to breathe at a given depth. 
+The safety of a mixture is regulated by the partial pressures (in atm (atmospheres)) of it's constituent gases.
+Oxygen is safe to breathe at partial pressure ranges 0.4 - 1.6, too high a PPO2 (Oxygen partial pressure) can cause O2 toxicity, too low can cause hypoxia. 
+CO2 must be kept to a minimum, in this project this is less than 0.01 
+The partial pressure of Oxygen describes the oxygen available for respiration,
+Partial pressure is the pressure exerted by a given gas(i.e. Oxygen) gas in a mixture.
+
+The key points:
+   PPO2 must be regulated to maintain safety, which means altering the molar ratio of helium to oxygen depending on the depth.
+   Deeper dives require a lower molar fraction of O2, because there's a higher total pressure.
+   PPCO2 must be regulated to maintain low quantity, done through air scrubbing ( part of the air filtration system)
+   total pressure of the cabin must be equal to that of the ambient pressure at a given depth.
+
+
+partial pressures
+PV = nRT
+assuming constant T, and V (safe temp and same DSV volume)
+the pressure is directly dictated by the number of moles n, as R is a constant 8.31
+
+              nRT
+ P(total) = -------
+               V
+
+PPO2 = FO2 x P(total)
+
+
+VARIABLES
+
+Depth           pressure in a collumn (10m = 1atm  (water), there remains a constant of sea level pressure. 
+			Therefore pressure = depth / 10 + 1)
+FO2             molar fraction of Oxygen in air mixture
+FHe		molar fraction of Helium in air mixture
+FCO2            molar fraction of Carbon Dioxide in air mixture
+PPO2            safe bounds 0.4 - 1.6 atm
+PPHe            the converse of PPO2 + PPCO2
+PPCO2
+   Temperature  temp may not included and assumed as constant
+
+
+what this program will simulate the actions to be taken in the circumstances of:
+
+
+   -too high PPCO2
+   -too low PPO2
+   -too high PPO2
+  
+Each of these has it's own risks, such as hypo/hypercapnia(CO2), hyp/hyperoxia(O2).
+as Helium is used as an inert filler gas, it would cause the above and
+yield the greatest difference in total pressure,
+potentially causing the DSV to fill with water or leak gas.
+
+These conditions are maintained by being measured and then being directly altered to ideal values if they fall out of safe range. 
+
+In savedRuns i have tested values that test a variety of depths, and combinations of variables that allow for all branches of the program to be explored. 
+The variable Gas_Fraction is only changed if the resulting air mixture is unsafe at a given depth. 
